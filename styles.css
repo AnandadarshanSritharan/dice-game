@@ -1,0 +1,63 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+button {
+  background-color: #9c9ebd;  /* Matches the text color */
+  color: #393E46;  /* Matches the background color */
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  font-family: 'Indie Flower', cursive;  /* Matches the font style */
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #2E8B74;  /* Darker shade of the button color for hover effect */
+  transform: scale(1.05);  /* Slight zoom effect on hover */
+}
+
+button:active {
+  background-color: #3B977F;  /* Even darker shade for active state */
+  transform: scale(1);  /* Return to original size on click */
+}
+
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
